@@ -1,0 +1,35 @@
+#end-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+}
+
+input::placeholder{
+    color: rosybrown;
+}
+#username{
+    width: 90%;
+    margin-bottom: 3rem;
+    outline-style: none;   
+}
+
+#end-text{
+    color: white;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+#saveScoreBtn{
+    border: none;
+}
